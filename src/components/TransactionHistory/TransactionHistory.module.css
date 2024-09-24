@@ -1,25 +1,25 @@
-table {
+.table {
   width: 600px;
   margin: 0 auto;
   font-size: 24px;
   border-collapse: collapse;
 }
 
-thead {
+.head {
   color: white;
   background-color: rgb(46, 46, 46);
 }
 
-th,
-td {
+.headItem,
+.bodyItem {
   border: 2px solid black;
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: rgb(200, 200, 200);
+.transaction {
+  text-transform: capitalize;
 }
 
-tr {
-  text-transform: capitalize;
+.transaction:nth-child(even) {
+  background-color: rgb(200, 200, 200);
 }
